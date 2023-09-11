@@ -1,0 +1,223 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+/*-------------------------Nqv Bar-------------*/
+.nav{
+  display: flex;
+  padding: 0.5rem;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid rgb(195, 203, 211);
+  border-top: 0;
+  border-right: 0;
+  border-left: 0;
+  background: #f7df93de;
+}
+.nav1{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bolder;
+}
+.btn{
+  height: 1.5rem;
+  border-radius: 0.5rem;
+  border: 0.8px solid ;
+}
+.btn:hover{
+  cursor:pointer;
+  background: #000;
+  color: white;
+}
+
+/*-------------------------------------Main page----------------*/
+.mainp{
+  display: flex;
+  flex-direction: column;
+  background: #f5d888;
+  height: 95vh;
+}
+.auth{
+  display: flex;
+  flex-direction: column;
+  height: 95vh;
+  align-items: center;
+  justify-content: center;
+}
+.login{
+  border: 0.5px solid slategrey;
+  padding: 1rem;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+.login input{
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  background:transparent;
+  outline: none;
+
+}
+.regis{
+  border: 0.5px solid slategrey;
+  padding: 1rem;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+.regis input{
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  background:transparent;
+  outline: none;
+
+}
+.switch{
+  color: blue;
+  text-decoration: underline;
+  font-weight: bolder;
+}
+.switch:hover{
+  cursor: pointer;
+  color: #002efd;
+  text-shadow:0px 0px 30px #0b15a18f;
+  -moz-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+
+/*-------------------------------------------games--------------------------------------------------------*/
+.prod{
+display: flex;
+flex-wrap:wrap;
+align-items: center;
+justify-content: center;
+background: #f5e0a8b6;
+}
+.card{
+  margin :1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+  height: 20rem;
+  width: 16rem;
+  border: 1px solid;
+  border-radius: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.card1{
+  height: 10rem; 
+  width: 10rem;
+}
+
+#price,#btn{
+  margin: 1rem;
+}
+
+button{
+  margin-top: 0%;
+  background: #454a4c91;
+  border: 1px;
+  border-radius: 3px;
+  height: 22px;
+  cursor: pointer;
+
+}
+button:hover{
+  background-color: rgba(10, 4, 1, 0.589);
+}
+
+/*---------------------------------cart---------------------------------------------------------*/
+.a{
+  background: #f5e0a8b6;
+  height: 93vh;
+}
+.product{
+  background: #f5e1a843;
+  display: flex;
+  height: 10rem;
+  width: 20rem;
+  border: 1px solid black;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1rem;
+  border-radius: 1rem;
+}
+
+.pimage{
+  border-radius: 1rem;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  height: 10rem; 
+  width: 10rem;
+}
+.div2{
+  margin: auto;
+}
+h5{
+ margin: auto;
+}
+.quantity{
+  margin: 0.5rem;
+  display: inline-flex;
+}
+.total{
+  margin: auto;
+  border-top: 3px solid black;
+}
+#pbtn{
+  background:skyblue;
+  margin-bottom: 10rem;
+}
+#pbtn:hover{
+  background: green;
+}
+
+/* BsCart2{
+height: 30px;
+width: 30px;
+} */
