@@ -13,7 +13,7 @@ const Navbar=()=>{
     const { setInfo, info } = useContext(UserContext);
     const user = info?.name;
     const logout = async () => {
-        await fetch("http://localhost:8000/logout", {
+        await fetch("https://totalitycorp.onrender.com/logout", {
           method: "POST",
           credentials: "include"
         });
