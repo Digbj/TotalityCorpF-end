@@ -24,7 +24,7 @@ const Home = () => {
       setMsg("Enter The Credentials");
     } else {
       e.preventDefault();
-      const response = await fetch("https://totalitycorp.onrender.com/login", {
+      const response = await fetch("http://localhost:8000/login", {
         method: "POST",
         body: JSON.stringify(login), 
         headers: { "Content-Type": "application/json" },
@@ -53,7 +53,7 @@ const Home = () => {
       setMsg("");
       console.log("hello from register");
       e.preventDefault();
-      const response = await fetch("https://totalitycorp.onrender.com/reg", {
+      const response = await fetch("http://localhost:8000/reg", {
         method: "POST",
         body: JSON.stringify(reg), 
         headers: { "Content-Type": "application/json" },
